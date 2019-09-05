@@ -1,0 +1,19 @@
+{
+  "name": "exercises-algo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bohaigt86/exercises-algo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bohaigt86/exercises-algo/issues"
+  },
+  "homepage": "https://github.com/bohaigt86/exercises-algo#readme"
+}
