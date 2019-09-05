@@ -2,8 +2,10 @@
 
 ### 使用语言：JavaScript / 更新频率：日更
 
-#### 基础问题：[字符反转](./answers/reverseString/), [最高频字符](./answers/maxChar/)
+#### 数组和字符串：
 
-#### 进阶问题：[最大数](./answers/maxInt/)
+- [字符反转](./answers/reverseString/)
 
-#### 复杂问题：
+- [最高频字符](./answers/maxChar/)
+
+- [最大数](./answers/maxInt/)
