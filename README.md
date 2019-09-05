@@ -4,7 +4,7 @@
 
 ### 更新频率：日更
 
-#### 基础问题：[反转字符](./answers/reversestring/README.md)
+#### 基础问题：[反转字符](./answers/reversestring/)
 
 #### 进阶问题：
 
