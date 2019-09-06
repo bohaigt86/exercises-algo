@@ -9,3 +9,5 @@
 - [最高频字符](./answers/maxChar/)
 
 - [最大数](./answers/maxInt/)
+
+- [Chunk](./answers/chunk)
