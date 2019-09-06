@@ -10,4 +10,6 @@
 
 - [最大数](./answers/maxInt/)
 
-- [Chunk](./answers/chunk)
+- [经典 Chunk 问题](./answers/chunk)
+
+- [经典 FizzBuzz 问题](./answers/fizzbuzz)
