@@ -4,11 +4,11 @@
 
 #### 数组和字符串：
 
-- [字符反转](./answers/reverseString/)
+- [字符反转](./answers/reverseString)
 
-- [最高频字符](./answers/maxChar/)
+- [最高频字符](./answers/maxChar)
 
-- [最大数](./answers/maxInt/)
+- [最大数](./answers/maxInt)
 
 - [Chunk](./answers/chunk)
 
