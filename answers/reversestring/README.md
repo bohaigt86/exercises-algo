@@ -1,10 +1,10 @@
 # 反转字符
 
---- Directions
+#### 说明
 
 Given a string, return a new string with the reversed order of characters
 
---- Examples
+#### 示例
 
 reverse('apple') === 'leppa'
 
