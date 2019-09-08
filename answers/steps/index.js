@@ -18,21 +18,35 @@
 //       '####'
 
 // Solution #1 - Iteration
-
 // function steps(n) {
-// for (let row = 0; row < n; row++) {
-//   let stair = '';
-//   for (let column = 0; column < n; column++) {
-//     if (column <= row) {
-//       stair += '#';
-//     } else {
-//       stair += ' ';
+//   for (let row = 0; row < n; row++) {
+//     let stair = '';
+//     for (let column = 0; column < n; column++) {
+//       if (column <= row) {
+//         stair += '#';
+//       } else {
+//         stair += '-';
+//       }
 //     }
+//     console.log(stair);
 //   }
-//   console.log(stair);
-// }
 // }
 
 // Solution #2 - Recursion
-function steps(n) {}
+function steps(n, row = 0, stair = '') {
+  // if row increases to n, execution finishes
+  if (n === row) {
+    return;
+  }
+
+  // if the length of a stair equals to n
+  // then console log the stair and move to the next level (row + 1)
+  if (n === stair.length) {
+    console.log(stair);
+    return steps(n, row + 1);
+  }
+
+  stair += stair.length <= row ? '#' : '-';
+  steps(n, row, stair);
+}
 module.exports = steps;
