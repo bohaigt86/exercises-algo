@@ -10,6 +10,8 @@
 
 - [最高频字符](./answers/maxChar)
 
+- [输出台阶](./answers/steps)
+
 - [最大数](./answers/maxInt)
 
 - [Chunk](./answers/chunk)
