@@ -6,6 +6,8 @@
 
 - [字符反转](./answers/reverseString)
 
+- [首字母大写](./answers/capitalize)
+
 - [最高频字符](./answers/maxChar)
 
 - [最大数](./answers/maxInt)
