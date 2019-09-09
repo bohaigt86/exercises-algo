@@ -13,7 +13,22 @@
 //       '  #  '
 //       ' ### '
 //       '#####'
+// Solution #1 - Iteration
+function pyramid(n) {
+  for (let row = 1; row <= n; row++) {
+    let level = '';
+    // const build = calcBuild(n, row);
+    for (let column = 1; column <= 2 * n - 1; column++) {
+      level += calcBuild(n, row, column) ? '#' : ' ';
+    }
+    console.log(level);
+  }
+}
 
-function pyramid(n) {}
+function calcBuild(n, row, column) {
+  const min = Math.ceil((n * 2 - 1) / 2) - (row - 1);
+  const max = Math.ceil((n * 2 - 1) / 2) + (row - 1);
+  return column >= min && column <= max ? true : false;
+}
 
 module.exports = pyramid;
