@@ -12,6 +12,8 @@
 
 - [输出台阶](./answers/steps)
 
+- [输出金字塔](./answers/pyramid)
+
 - [最大数](./answers/maxInt)
 
 - [Chunk](./answers/chunk)
