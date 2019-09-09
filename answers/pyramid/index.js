@@ -19,7 +19,7 @@ function pyramid(n) {
     let level = '';
     // const build = calcBuild(n, row);
     for (let column = 1; column <= 2 * n - 1; column++) {
-      level += calcBuild(n, row, column) ? '#' : ' ';
+      level += calcBuild(n, row, column) ? '#' : '-';
     }
     console.log(level);
   }
