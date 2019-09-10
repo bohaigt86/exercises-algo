@@ -14,6 +14,8 @@
 
 - [输出金字塔](./answers/pyramid)
 
+- [斐波那契数列](./answers/fib)
+
 - [最大数](./answers/maxInt)
 
 - [Chunk](./answers/chunk)
