@@ -25,13 +25,31 @@ class Queue {
 
   remove() {
     while (this.stackOne.peek()) {
-      this.stackTwo.add(this.stackOne.pro());
+      this.stackTwo.push(this.stackOne.pop());
     }
 
     const result = this.stackTwo.pop();
+
+    while (this.stackTwo.peek()) {
+      this.stackOne.push(this.stackTwo.pop());
+    }
+
+    return result;
   }
 
-  peek() {}
+  peek() {
+    while (this.stackOne.peek()) {
+      this.stackTwo.push(this.stackOne.pop());
+    }
+
+    const result = this.stackTwo.peek();
+
+    while (this.stackTwo.peek()) {
+      this.stackOne.push(this.stackTwo.pop());
+    }
+
+    return result;
+  }
 }
 
 module.exports = Queue;
