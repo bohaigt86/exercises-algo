@@ -34,11 +34,35 @@ class LinkedList {
   }
 
   getLast() {
+    if (!this.head) {
+      return null;
+    }
     let node = this.head;
     while (node.next) {
       node = node.next;
     }
     return node;
+  }
+  clear() {
+    this.head = null;
+  }
+  removeFirst() {
+    if (!this.head) return;
+    this.head = this.head.next;
+  }
+  removeLast() {
+    if (!this.head) return;
+    if (!this.head.next) {
+      this.head = null;
+      return;
+    }
+    let prevNode = this.head;
+    let curNode = prevNode.next;
+    while (curNode.next) {
+      prevNode = curNode;
+      curNode = curNode.next;
+    }
+    prevNode.next = null;
   }
 }
 
