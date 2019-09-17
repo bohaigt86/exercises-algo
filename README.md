@@ -36,4 +36,8 @@
 
 - [队列 Weave](./answers/data-structure/1-1-weave)
 
-- [用栈实现队列](./answers/data-structure/2-1-)
+- [用栈实现队列](./answers/data-structure/2-1-qfroms)
+
+- [中点问题](./answers/data-structure/3-1-midpoint)
+
+- [闭合链表](./answers/data-structure/3-2-circular)
