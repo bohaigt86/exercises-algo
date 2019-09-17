@@ -28,4 +28,12 @@
 
 数据结构
 
-- [队列](./answers/data-structure/queue)
+- [队列](./answers/data-structure/1-queue)
+
+- [栈](./answers/data-structure/2-stack)
+
+- [链表](./answers/data-structure/3-linkedlist)
+
+- [队列 Weave](./answers/data-structure/1-1-weave)
+
+- [用栈实现队列](./answers/data-structure/2-1-)
