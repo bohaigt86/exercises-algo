@@ -4,7 +4,7 @@
 
 #### 数组和字符串：
 
-- [Anagrams](./answers/norms/anagrams)
+- [Anagrams](./norms/anagrams)
 
 - [首字母大写](./answers/norms/capitalize)
 
