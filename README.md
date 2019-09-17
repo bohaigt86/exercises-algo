@@ -38,6 +38,6 @@
 
 - [用栈实现队列](./data-structure/2-1-qfroms)
 
-- [中点问题](./data-structure/3-1-midpoint)
+- [链表中点问题](./data-structure/3-1-midpoint)
 
 - [闭合链表](./data-structure/3-2-circular)
