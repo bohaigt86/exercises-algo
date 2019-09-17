@@ -4,22 +4,24 @@
 
 #### 数组和字符串：
 
-- [字符反转](./answers/reverseString)
+- [Anagrams](./answers/anagrams)
 
 - [首字母大写](./answers/capitalize)
 
-- [最高频字符](./answers/maxChar)
-
-- [输出台阶](./answers/steps)
-
-- [输出金字塔](./answers/pyramid)
+- [Chunk](./answers/chunk)
 
 - [斐波那契数列](./answers/fib)
 
-- [最大数](./answers/maxInt)
-
-- [Chunk](./answers/chunk)
-
 - [FizzBuzz](./answers/fizzbuzz)
 
-- [Anagrams](./answers/anagrams)
+- [最高频字符](./answers/maxChar)
+
+- [最大数](./answers/maxInt)
+
+- [输出金字塔](./answers/pyramid)
+
+- [字符反转](./answers/reverseString)
+
+- [二维数组搜索](./answers/searchMatrix)
+
+- [输出台阶](./answers/steps)
