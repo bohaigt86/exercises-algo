@@ -10,9 +10,11 @@
 
 - [Chunk](./norms/chunk)
 
-- [斐波那契数列](./norms/fib)
+- [斐波那契数列](./norms/fib-dynamic)
 
 - [FizzBuzz](./norms/fizzbuzz)
+
+- [最长公用子字符串](./norms/longestCommonString-dynamic)
 
 - [最高频字符](./norms/maxChar)
 
