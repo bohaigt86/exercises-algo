@@ -24,6 +24,38 @@ class Node {
   }
 }
 
-class Tree {}
+class Tree {
+  constructor() {
+    this.root = null;
+  }
+  traverseBF(fn) {
+    if (!this.root) return;
+    let arr = [this.root];
+    while (arr.length) {
+      const node = arr.shift();
+      if (node.children) {
+        arr.push(...node.children);
+      }
+      fn(node);
+    }
+  }
+  traverseDF(fn) {
+    if (!this.root) return;
+    let arr = [this.root];
+    while (arr.length) {
+      const node = arr.shift();
+      if (node.children) {
+        arr = [...node.children, ...arr];
+      }
+      fn(node);
+    }
+  }
+}
 
+// const tree = new Tree();
+// tree.root = new Node(10);
+// tree.root.add(4);
+// tree.root.add(26);
+
+// tree.traverseBF(node => console.log('this:', node.data));
 module.exports = { Tree, Node };
