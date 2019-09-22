@@ -41,11 +41,11 @@ class Tree {
   }
   traverseDF(fn) {
     if (!this.root) return;
-    let arr = [this.root];
+    const arr = [this.root];
     while (arr.length) {
       const node = arr.shift();
       if (node.children) {
-        arr = [...node.children, ...arr];
+        arr.unshift(...node.children);
       }
       fn(node);
     }
