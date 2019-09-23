@@ -1,3 +1,11 @@
+// Find a peak in a matrix
+// A peak is greater than or equal to the numbers above and below, on its left and right
+// [
+//    [1,2,3]
+//    [2,4,1]
+//    [1,2,3]
+//  ]
+// 4 is a peak, either 3 is a peak too
 // Assume the input is at least a 2x2 matrix
 function findMatrixPeak(matrix) {
   const row = matrix.length;
