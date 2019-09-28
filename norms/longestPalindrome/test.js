@@ -9,6 +9,3 @@ test('function longestPalindrome returns "abcba" from "aabcbad"', () => {
   const result = longestPalindrome(str);
   expect(result).toEqual('abcba');
 });
-test('', () => {});
-test('', () => {});
-test('', () => {});

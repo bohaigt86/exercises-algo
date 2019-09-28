@@ -9,11 +9,9 @@ const longestPalindrome = s => {
     for (let j = len - 1; j >= i; j--) {
       array[j] = s.charAt(i) === s.charAt(j) && (j - i < 3 || array[j - 1]);
       if (array[j] && j - i + 1 > result.length) {
-        console.log(`start: ${i} - end: ${j}`);
         result = s.slice(i, j + 1);
       }
     }
-    console.log(result);
   }
   return result;
 };
