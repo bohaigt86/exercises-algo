@@ -2,28 +2,31 @@ const lengthOfLongestSubstring = string => {
   const len = string.length;
 
   if (len < 2) return len;
+  let i = 0,
+    flag = 0,
+    length = 0,
+    result = 0;
 
-  let temp = '';
-  let result = [0, 0]; // [index, length]
-  for (let i = 0; i < len; i++) {
-    const char = string[i];
+  while (i < len) {
+    const char = string.charAt(i);
+    const rest = string.slice(flag);
+    const pos = rest.indexOf(char) + flag; // 在flag为起点的String里寻找当先char的index，但是index是相对原始输入的整个string而言的
+    // console.log(`Round${i} - Rest: ${rest} - Position: ${pos}`);
+    if (pos < i) {
+      flag = pos + 1;
 
-    if (temp.indexOf(char) === -1) {
-      temp += char;
-      console.log(`Round${i}: ${temp}`);
-      console.log(result);
-    } else {
-      const newLen = i - result[0];
-      result[0] += temp.indexOf(char) + 1;
-      temp = temp.slice(temp.indexOf(char) + 1) + char;
-      console.log(`Round${i}: ${temp}`);
-      console.log(result);
-      if (newLen > result[1]) {
-        result[1] = newLen;
+      if (length > result) {
+        result = length;
       }
+      if (result >= len - flag) {
+        return result;
+      }
+      length = i - flag;
     }
+    length++;
+    i++;
   }
-  return temp.length > result[1] ? temp.length : result[1];
+  return length;
 };
 
 module.exports = lengthOfLongestSubstring;
