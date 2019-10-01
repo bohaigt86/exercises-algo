@@ -5,7 +5,7 @@ test('function addTwoNumbers is defined', () => {
   expect(typeof addTwoNumbers).toEqual('function');
 });
 
-test('', () => {
+test('When function addTwoNumbers is given [2=>4=>3] and [5=>6=>4], it adds digits within them and returns [7=>0=>8]', () => {
   const l1 = new Node(2);
   l1.next = new Node(4);
   l1.next.next = new Node(3);
