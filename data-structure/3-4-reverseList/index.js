@@ -9,4 +9,8 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
+
+const Node = require('./node');
 const reverseList = head => {};
+
+module.exports = reverseList;
