@@ -1,3 +1,5 @@
+// execution time: 95ms
+
 const ap = require('./ap');
 function shortestToChar(str, char) {
   const len = str.length;

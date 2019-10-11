@@ -1,3 +1,5 @@
+// execution time: 75ms
+
 function shortestToChar(str, char) {
   let arr = str.split('');
   let reversedArr = str.split('').reverse();
